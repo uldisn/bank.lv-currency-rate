@@ -21,14 +21,22 @@ jāaizstāj:
 
 
 5) PHP koda piemērs:
+
 $oCurr = new fCurrency();
 
 $nRate = $oCurr->getCurrencyRateByCode('USD', '2013.01.01);
+
 if ($nRate === FALSE){
+
     echo $oCurr->sError;
+
 }
+
 $nRate = $oCurr->getCurrencyRateById(CUR_USD, '2013.01.01);
+
 if ($nRate === FALSE){
+
     echo $oCurr->sError;
+
 }
 
