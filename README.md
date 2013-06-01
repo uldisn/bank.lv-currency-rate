@@ -3,6 +3,7 @@ bank.lv-currency-rate
 Pieprasot valūtas kursu, tas tiek nolasīts no datubāzes. Ja nav iekš datubāzes, 
 tad nolasa no Latvijas Bankas mājas lapas un pie reizes saglabā datubāzē.
 Tiek minimzēts pierasījumu skaits LB lapai, kā arī palielinās skripta izpildes ātrums.
+Par valūtas kursiem xml skatīt: http://www.bank.lv/monetara-politika/latvijas-bankas-noteiktie-valutu-kursi-xml-formata
 
 Izmantošana
 =====================
