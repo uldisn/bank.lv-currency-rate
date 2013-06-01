@@ -81,7 +81,7 @@ class fCurrency {
         if ($dDate) {
             $aDates = MySQL::q("SELECT IF(DATEDIFF('" . $dDate . "',CURDATE())>0, 1, 0) in_future ");
             if ($aDates[0]['in_future'] == 1) {
-                $this->sError = "Can not get currency rate, Date(" . $nDate . ") is in future.";
+                $this->sError = "Can not get currency rate, Date(" . $dDate . ") is in future.";
                 return FALSE;
             }
         }
